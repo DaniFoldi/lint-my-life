@@ -12,6 +12,7 @@ import eslintPluginPromise from 'eslint-plugin-promise'
 import eslintPluginSecurity from 'eslint-plugin-security'
 // @ts-expect-error: No types
 import eslintPluginTailwindcss from 'eslint-plugin-tailwindcss'
+// @ts-expect-error: No types
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
 import type { Globals, LanguageOptions, Plugins, Rules, Settings } from '../util'
@@ -569,7 +570,7 @@ export const jsRules: Rules = {
   'unicorn/escape-case': 'error',
   'unicorn/expiring-todo-comments': 'warn',
   'unicorn/explicit-length-check': 'warn',
-  'unicorn/import-style': 'error',
+  'unicorn/import-style': 'off',
   'unicorn/new-for-builtins': 'error',
   'unicorn/no-abusive-eslint-disable': 'error',
   'unicorn/no-array-push-push': 'error',
@@ -662,5 +663,6 @@ export const jsRules: Rules = {
     {
       'requireStringLiterals': true
     }
-  ]
+  ],
+  'no-useless-assignment': 'warn'
 }

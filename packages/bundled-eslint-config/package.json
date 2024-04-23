@@ -21,6 +21,7 @@
     "@eslint-types/unicorn": "^51.0.1",
     "@types/node": "^20.12.5",
     "esbuild": "^0.20.2",
+    "eslint": "^9.0.0",
     "some-tsconfig-preset": "^1.5.0",
     "typescript": "^5.4.4",
     "vitest": "^1.4.0"
@@ -77,5 +78,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DaniFoldi/lint-my-life.git"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
   }
 }

@@ -57,8 +57,8 @@ importers:
         specifier: ^0.6.1
         version: 0.6.1(eslint@9.5.0)(typescript@5.5.2)
       eslint-plugin-import-x:
-        specifier: ^0.5.1
-        version: 0.5.1(eslint@9.5.0)(typescript@5.5.2)
+        specifier: ^0.5.2
+        version: 0.5.2(eslint@9.5.0)(typescript@5.5.2)
       eslint-plugin-jsdoc:
         specifier: ^48.2.9
         version: 48.2.9(eslint@9.5.0)
@@ -1365,8 +1365,8 @@ packages:
   eslint-plugin-case-police@0.6.1:
     resolution: {integrity: sha512-SNyZBjc39CwoNSOl3aiu5EsuHYXOIaPDraMsgLQmcH8CbEhllyOMkmV9kuSNHjjtM8iYRHsiBs1WEFw3/9qkoQ==}
 
-  eslint-plugin-import-x@0.5.1:
-    resolution: {integrity: sha512-2JK8bbFOLes+gG6tgdnM8safCxMAj4u2wjX8X1BRFPfnY7Ct2hFYESoIcVwABX/DDcdpQFLGtKmzbNEWJZD9iQ==}
+  eslint-plugin-import-x@0.5.2:
+    resolution: {integrity: sha512-6f1YMmg3PdLwfiJDYnCRPfh67zJKbwbOKL99l6xGZDmIFkMht/4xyudafGEcDOmDlgp36e41W4RXDfOn7+pGRg==}
     engines: {node: '>=16'}
     peerDependencies:
       eslint: ^8.56.0 || ^9.0.0-0
@@ -3972,7 +3972,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-import-x@0.5.1(eslint@9.5.0)(typescript@5.5.2):
+  eslint-plugin-import-x@0.5.2(eslint@9.5.0)(typescript@5.5.2):
     dependencies:
       '@typescript-eslint/utils': 7.12.0(eslint@9.5.0)(typescript@5.5.2)
       debug: 4.3.5

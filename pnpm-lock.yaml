@@ -91,7 +91,7 @@ importers:
         version: 53.0.0(eslint@9.5.0)
       eslint-plugin-vitest:
         specifier: ^0.5.4
-        version: 0.5.4(eslint@9.5.0)(typescript@5.5.2)(vitest@1.6.0(@types/node@20.14.9)(sass@1.77.4))
+        version: 0.5.4(eslint@9.5.0)(typescript@5.5.2)(vitest@1.6.0(@types/node@20.14.9)(sass@1.77.6))
       eslint-plugin-vue:
         specifier: ^9.26.0
         version: 9.26.0(eslint@9.5.0)
@@ -125,7 +125,7 @@ importers:
         version: 5.5.2
       vitest:
         specifier: ^1.6.0
-        version: 1.6.0(@types/node@20.14.9)(sass@1.77.4)
+        version: 1.6.0(@types/node@20.14.9)(sass@1.77.6)
 
   packages/bundled-stylelint-config:
     dependencies:
@@ -200,8 +200,8 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9(postcss@8.4.38)
       sass:
-        specifier: ^1.77.4
-        version: 1.77.4
+        specifier: ^1.77.6
+        version: 1.77.6
       stylelint:
         specifier: ^16.6.1
         version: 16.6.1(typescript@5.5.2)
@@ -212,8 +212,8 @@ importers:
         specifier: ^6.0.4
         version: 6.0.4(stylelint@16.6.1(typescript@5.5.2))
       stylelint-scss:
-        specifier: ^6.3.1
-        version: 6.3.1(stylelint@16.6.1(typescript@5.5.2))
+        specifier: ^6.3.2
+        version: 6.3.2(stylelint@16.6.1(typescript@5.5.2))
 
 packages:
 
@@ -2384,8 +2384,8 @@ packages:
   safe-regex@2.1.1:
     resolution: {integrity: sha512-rx+x8AMzKb5Q5lQ95Zoi6ZbJqwCLkqi3XuJXp5P3rT8OEc6sZCJG5AE5dU3lsgRr/F4Bs31jSlVN+j5KrsGu9A==}
 
-  sass@1.77.4:
-    resolution: {integrity: sha512-vcF3Ckow6g939GMA4PeU7b2K/9FALXk2KF9J87txdHzXbUF9XRQRwSxcAs/fGaTnJeBFd7UoV22j3lzMLdM0Pw==}
+  sass@1.77.6:
+    resolution: {integrity: sha512-ByXE1oLD79GVq9Ht1PeHWCPMPB8XHpBuz1r85oByKHjZY6qV6rWnQovQzXJXuQ/XyE1Oj3iPk3lo28uzaRA2/Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -4227,12 +4227,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-vitest@0.5.4(eslint@9.5.0)(typescript@5.5.2)(vitest@1.6.0(@types/node@20.14.9)(sass@1.77.4)):
+  eslint-plugin-vitest@0.5.4(eslint@9.5.0)(typescript@5.5.2)(vitest@1.6.0(@types/node@20.14.9)(sass@1.77.6)):
     dependencies:
       '@typescript-eslint/utils': 7.12.0(eslint@9.5.0)(typescript@5.5.2)
       eslint: 9.5.0
     optionalDependencies:
-      vitest: 1.6.0(@types/node@20.14.9)(sass@1.77.4)
+      vitest: 1.6.0(@types/node@20.14.9)(sass@1.77.6)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5173,7 +5173,7 @@ snapshots:
     dependencies:
       regexp-tree: 0.1.27
 
-  sass@1.77.4:
+  sass@1.77.6:
     dependencies:
       chokidar: 3.6.0
       immutable: 4.3.6
@@ -5558,13 +5558,13 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-node@1.6.0(@types/node@20.14.9)(sass@1.77.4):
+  vite-node@1.6.0(@types/node@20.14.9)(sass@1.77.6):
     dependencies:
       cac: 6.7.14
       debug: 4.3.5
       pathe: 1.1.2
       picocolors: 1.0.1
-      vite: 5.2.13(@types/node@20.14.9)(sass@1.77.4)
+      vite: 5.2.13(@types/node@20.14.9)(sass@1.77.6)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5575,7 +5575,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.2.13(@types/node@20.14.9)(sass@1.77.4):
+  vite@5.2.13(@types/node@20.14.9)(sass@1.77.6):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
@@ -5583,9 +5583,9 @@ snapshots:
     optionalDependencies:
       '@types/node': 20.14.9
       fsevents: 2.3.3
-      sass: 1.77.4
+      sass: 1.77.6
 
-  vitest@1.6.0(@types/node@20.14.9)(sass@1.77.4):
+  vitest@1.6.0(@types/node@20.14.9)(sass@1.77.6):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -5604,8 +5604,8 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.8.0
       tinypool: 0.8.4
-      vite: 5.2.13(@types/node@20.14.9)(sass@1.77.4)
-      vite-node: 1.6.0(@types/node@20.14.9)(sass@1.77.4)
+      vite: 5.2.13(@types/node@20.14.9)(sass@1.77.6)
+      vite-node: 1.6.0(@types/node@20.14.9)(sass@1.77.6)
       why-is-node-running: 2.2.2
     optionalDependencies:
       '@types/node': 20.14.9
